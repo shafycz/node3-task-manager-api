@@ -21,13 +21,14 @@ MongoClient.connect(connectionURL,{ useNewUrlParser: true}, (error,client)=>{
     // }).catch((error)=>{
     //     console.log(error)
     // })
-    db.collection('tasks').deleteOne({
-        description:'Do my job'
-    }).then((result)=>{
-        console.log(result)
-    }).catch((error)=>{
-        console.log(error)
-    })
+    
+    // db.collection('tasks').deleteOne({
+    //     description:'Do my job'
+    // }).then((result)=>{
+    //     console.log(result)
+    // }).catch((error)=>{
+    //     console.log(error)
+    // })
 
 //   db.collection('users').updateOne({
 //         _id:ObjectID('5cc8a02b9abd0c0388dda7e6')
